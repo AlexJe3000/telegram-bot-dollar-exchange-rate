@@ -3,7 +3,7 @@ from telebot import types
 import requests
 from bs4 import BeautifulSoup as b
 url='https://www.banki.ru/products/currency/usd/'
-API_KEY='5517909601:AAGtVg2N_GbMFsVRfo2eRR0qoPUxsn9mYpA'
+API_KEY='APIKEY'
 while True:
         def parser(url):
             r=requests.get(url)
